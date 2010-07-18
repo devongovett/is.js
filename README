@@ -1,0 +1,12 @@
+is.js is a JavaScript function that returns whether an object is of a given type.  Pass multiple types to test whether an object is of any of the types.
+
+Originally by Dmitry Baranovskiy
+Modified by Devon Govett to support multiple types
+
+Examples:
+
+is("test", "array", "string"); //true
+is(123, "number", "string"); //true
+is([], "object"); //true
+is([], "array"); //true
+is(new String("test"), "string"); //true
